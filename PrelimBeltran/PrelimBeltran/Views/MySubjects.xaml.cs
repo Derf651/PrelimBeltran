@@ -1,0 +1,20 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
+
+namespace PrelimBeltran.Views
+{
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class MySubjects : ContentPage
+    {
+        public MySubjects()
+        {
+            InitializeComponent();
+        }
+    }
+}
